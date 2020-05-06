@@ -38,7 +38,7 @@
             <img src="images/white-logo-png-3.png" alt="Logo" class="responsive-img">
             <h1>SCHOOL NAME</h1>
             <h3>Matriculation Higher Secondary School</h3><br>
-            <a href="#" class="btn pulse purple darken-3"><i class="material-icons">expand_more</i></a>
+            <a href="#aboutus" class="btn pulse purple darken-3">Scroll Down<i class="material-icons right">expand_more</i></a>
         </div>
     </div><br>
     <div class="container">
@@ -48,14 +48,16 @@
     <!-- ABOUT US -->
     <div class="container">
         <h2>Who we are</h2>
-        <p class="flow-text">
-        One common flaw we've seen in many frameworks is a lack of support for truly responsive text. While elements on the page resize fluidly, 
-        text still resizes on a fixed basis. To ameliorate this problem, for text heavy pages, we've created a class that fluidly scales text size and 
-        line-height to optimize readability for the user. Line length stays between 45-80 characters and line height scales to be larger on 
-        smaller screens.
-        To see Flow Text in action, slowly resize your browser and watch the size of this text body change! Use the button above to toggle off/on 
-        flow-text to see the difference!
-        </p>
+        <div class="scrollspy" id="aboutus">
+            <p class="flow-text">
+            One common flaw we've seen in many frameworks is a lack of support for truly responsive text. While elements on the page resize fluidly, 
+            text still resizes on a fixed basis. To ameliorate this problem, for text heavy pages, we've created a class that fluidly scales text size and 
+            line-height to optimize readability for the user. Line length stays between 45-80 characters and line height scales to be larger on 
+            smaller screens.
+            To see Flow Text in action, slowly resize your browser and watch the size of this text body change! Use the button above to toggle off/on 
+            flow-text to see the difference!
+            </p>
+        </div>
         <div class="center">
             <a href="#" class="btn-flat black-text">Our Founder<i class="material-icons right">chevron_right</i></a>
         </div>
@@ -207,7 +209,7 @@
                 </div><br>
             </div>
             <div class="center">
-                <a href="#" class="btn purple darken-3">More Events<i class="material-icons right">event_note</i></a>
+                <a href="events.html" class="btn purple darken-3">More Events<i class="material-icons right">event_note</i></a>
             </div>
         </div>
         <h2>Upcoming Events</h2>
@@ -222,11 +224,11 @@
                 <tbody>
                     <tr>
                         <td>Children Event</td>
-                        <td><a href="#" class="btn purple darken-3">Add Reminder<i class="material-icons left">add</i></a></td>
+                        <td><a href="reminder.html" class="btn purple darken-3">Add Reminder<i class="material-icons left">add</i></a></td>
                     </tr>
                     <tr>
                         <td>Children Event</td>
-                        <td><a href="#" class="btn purple darken-3">Add Reminder<i class="material-icons left">add</i></a></td>
+                        <td><a href="reminder.html" class="btn purple darken-3">Add Reminder<i class="material-icons left">add</i></a></td>
                     </tr>
                 </tbody>
             </table>
@@ -261,6 +263,11 @@
                         <a href="#" class="btn-flat white-text">Saturday<i class="material-icons left">access_time</i></a>
                     </div>
                 </div>
+                <div class="col s12 m4 l4">
+                    <div class="center">
+                        <img src="images/white-logo-png-3.png" alt="Logo" class="responsive-img">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="footer-copyright purple darken-4">
@@ -270,7 +277,11 @@
         </div>
     </footer>
 
+
+    <!-- MATERIALIZE JAVASCRIPT -->
     <script type="text/javascript" src="materialize/js/materialize.js"></script>
+
+    <!-- CUSTOM JS -->
     <script type="text/javascript" src="index.js"></script>
 
 </body>

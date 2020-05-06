@@ -12,3 +12,10 @@ document.addEventListener('DOMContentLoaded',function(){
     var elems = document.querySelectorAll('.slider');
     var instances = M.Slider.init(elems,{});
 });
+
+/*THIS SNIPPET IS A PLUGIN THAT ACTIVATES SCROLLSPY
+FEATURE */
+document.addEventListener('DOMContentLoaded',function(){
+    var elems = document.querySelectorAll('.scrollspy');
+    var instances = M.ScrollSpy.init(elems,{});
+});
